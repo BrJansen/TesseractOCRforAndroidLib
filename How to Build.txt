@@ -1,0 +1,15 @@
+given steps in README file will not build the tools successfully
+
+tessbaseapi.ccp gives errors saying that there is no glob.h/glob.c. 
+
+to resolve this issue download and add glob.c and glob.h to 
+/jni/com_googlecode_tesseract_android/ directory and then 
+
+modify the part of LOCAL_SRC_FILES in android.mk 
+in /jni/com_googlecode_tesseract_android/ to look like this
+
+LOCAL_SRC_FILES += \
+  pageiterator.cpp \
+  glob.c \
+  resultiterator.cpp \
+  tessbaseapi.cpp 
