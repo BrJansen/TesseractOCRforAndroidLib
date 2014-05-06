@@ -1,4 +1,4 @@
 TesseractOCRforAndroidLib
 =========================
 
-*Required for OCRProject* - Library source build for Tesseract OCR for Android. 
+*REQUIRED FOR OCR APPLICATION* - Library source build for Tesseract OCR for Android. 
